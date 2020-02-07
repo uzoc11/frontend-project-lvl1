@@ -7,6 +7,9 @@
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/uzoc11/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/uzoc11/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/uzoc11/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  }
 }
