@@ -1,7 +1,9 @@
 install:
 	npm install
 start:
-	npx node bin/brain-games.js
+	npx babel-node bin/brain-games.js
+starteven:
+	npx babel-node bin/brain-even.js
 publish:
 	npm publish --dry-run
 make lint:
