@@ -1,46 +1,31 @@
+import { car, cdr } from '@hexlet/pairs';
 import readlineSync from 'readline-sync';
 
 export const greetings = () => {
-    const userName = readlineSync.question('May I have your name ');
-    console.log('Hello ' + userName + '!');
+    const userName = readlineSync.question('May I have your name? ');
+    console.log(`Hello, ${userName}!`);
 };
 
-
-export const isEven = (result) => {
-    if (result % 2 === 0) {
-        return 'yes';
-    }
-    if (result % 2 !== 0) {
-        return 'no';
-    }
-};
-
-
-export const brainEven = () => {
+export const engine = (gameDescription, getGameData) => {
     console.log('Welcome to the Brain Games!');
-    
-    const userName = readlineSync.question('May I have your name ');
-    console.log('Hello ' + userName + '!');
+    const userName = readlineSync.question('May I have your name? ');
+    console.log(`Hello, ${userName}!`);
+    console.log(`${gameDescription}`);
 
-    console.log('Answer "yes" if the number is even, otherwise answer "no"');
-    
-    let i = 0;
-    while (i < 3) {
+    for (let i = 1; i <= 3; i += 1) {
+        const gameData = getGameData();
+        const getQuestion = car(gameData);
+        const getAnswer = cdr(gameData);
+        console.log(`Question: ${getQuestion}`);
+        const userAnswer = readlineSync.question('Your answer: ');
 
-    const randomNum = 1 + Math.random() * 30;
-    const result = Math.floor(randomNum);
-
-    
-        console.log (`Question: ${result}`);
-        const ans = readlineSync.question('Answer: ');
-    
-        if (ans === isEven(result)) {
-            i += 1;
+        if (userAnswer === getAnswer) {
             i < 3 ? console.log('Correct!') : console.log(`Correct!\nCongratulations, ${userName}!`);
         }
-        if (ans !== isEven(result)) {
-            console.log(`${ans} is wrong answer ;(. Correct answer was ${isEven(result)}.\nLet's try again, ${userName}`);
+        if (userAnswer !== getAnswer) {
+            console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${getAnswer}.`);
+            console.log(`Let's try again, ${userName}!`);
             break;
         }
     }
- };
+};
