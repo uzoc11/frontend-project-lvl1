@@ -5,3 +5,6 @@ even:
 
 calc:
 <a href="https://asciinema.org/a/jOeYoTxwRDwGjLUHL4X8exYXY" target="_blank"><img src="https://asciinema.org/a/jOeYoTxwRDwGjLUHL4X8exYXY.svg" /></a>
+
+gcd:
+<a href="https://asciinema.org/a/BQbnKRfcWPEvcBKC2qRqSaqGN" target="_blank"><img src="https://asciinema.org/a/BQbnKRfcWPEvcBKC2qRqSaqGN.svg" /></a>
