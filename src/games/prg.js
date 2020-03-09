@@ -1,4 +1,4 @@
-import { cons, car, cdr } from '@hexlet/pairs';
+import { cons } from '@hexlet/pairs';
 
 export const gameDescription = 'What number is missing in the progression?';
 

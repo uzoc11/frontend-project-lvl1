@@ -10,6 +10,8 @@ startnod:
 	npx babel-node bin/brain-gcd.js
 startprg:
 	npx babel-node bin/brain-progression.js
+startprime:
+	npx babel-node bin/brain-prime.js
 publish:
 	npm publish --dry-run
 make lint:
