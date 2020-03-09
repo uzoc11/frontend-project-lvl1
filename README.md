@@ -8,3 +8,6 @@ calc:
 
 gcd:
 <a href="https://asciinema.org/a/BQbnKRfcWPEvcBKC2qRqSaqGN" target="_blank"><img src="https://asciinema.org/a/BQbnKRfcWPEvcBKC2qRqSaqGN.svg" /></a>
+
+progression:
+<a href="https://asciinema.org/a/Axfh4jprf6L84LHOfzMOPRCZA" target="_blank"><img src="https://asciinema.org/a/Axfh4jprf6L84LHOfzMOPRCZA.svg" /></a>

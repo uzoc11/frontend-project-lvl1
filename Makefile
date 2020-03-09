@@ -8,6 +8,8 @@ startcalc:
 	npx babel-node bin/brain-calc.js
 startnod:
 	npx babel-node bin/brain-gcd.js
+startprg:
+	npx babel-node bin/brain-progression.js
 publish:
 	npm publish --dry-run
 make lint:
