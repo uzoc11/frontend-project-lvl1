@@ -1,7 +1,5 @@
-
 plugins: 
   - import
-  - babel
 env:
   node: true
   es6: true

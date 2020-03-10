@@ -1,6 +1,6 @@
 import { cons } from '@hexlet/pairs';
 
-const isEven = result => result % 2 === 0
+const isEven = (result) => result % 2 === 0;
 
 export const gameDescription = 'Answer "yes" if number even otherwise answer "no".';
 
