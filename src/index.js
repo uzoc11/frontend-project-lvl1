@@ -20,7 +20,10 @@ export const engine = (gameDescription, getGameData) => {
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer === getAnswer) {
-      i < 3 ? console.log('Correct!') : console.log(`Correct!\nCongratulations, ${userName}!`);
+      if (i === 3) {
+        console.log(`Correct!\nCongratulations, ${userName}!`);
+      }
+      console.log('Correct!');
     }
     if (userAnswer !== getAnswer) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${getAnswer}.`);
