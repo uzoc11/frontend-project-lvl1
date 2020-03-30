@@ -23,7 +23,7 @@ Five games exectued in the terminal
 - ` $ brain-even `
 - ` $ brain-prime `
 - ` $ brain-gcd `
-- ` $ brain-prg `
+- ` $ brain-progression `
 
 
 # Asciinema recordings:
@@ -40,7 +40,7 @@ Five games exectued in the terminal
 
 ## brain-progression:
 
-<a href="https://asciinema.org/a/JgybQoY1bzvBflPkrANkWPOKM" target="_blank"><img src="https://asciinema.org/a/JgybQoY1bzvBflPkrANkWPOKM.svg" /></a>
+<a href="https://asciinema.org/a/meHdWvcGBREkOwVNc2NnnC7BM" target="_blank"><img src="https://asciinema.org/a/meHdWvcGBREkOwVNc2NnnC7BM.svg" /></a>
 
 ## brain-prime:
 
