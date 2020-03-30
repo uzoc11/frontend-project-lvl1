@@ -13,7 +13,9 @@ Five games exectued in the terminal
 
 # How to install
 ` $ make install `
+
 ` $ make publish `
+
 ` $ npm link `
 
 # How to launch
