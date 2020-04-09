@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import prg from '../src/games/prg.js';
+import startGame from '../src/games/prg.js';
 
-prg();
+startGame();

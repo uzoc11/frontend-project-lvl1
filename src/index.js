@@ -9,12 +9,11 @@ const engine = (gameDescription, getGameData) => {
   console.log(`${gameDescription}`);
   for (let i = 1; i <= stepsCount; i += 1) {
     const gameData = getGameData();
-    const getQuestion = gameData[0];
-    const getAnswer = gameData[1];
-    console.log(`Question: ${getQuestion}`);
+    const [question, answer] = gameData;
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer !== getAnswer) {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${getAnswer}.`);
+    if (userAnswer !== answer) {
+      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${answer}.`);
       console.log(`Let's try again, ${userName}!`);
       return;
     }

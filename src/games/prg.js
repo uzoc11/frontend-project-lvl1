@@ -8,13 +8,13 @@ const getGameData = () => {
   const firstNum = generateNumber(1, 30);
   const difference = generateNumber(1, 5);
   const hiddenElementIndex = generateNumber(0, numberOfElements - 1);
-  const hiddenElement = '..';
+  const hiddenElementSign = '..';
   const progression = [];
   for (let i = 0; i < numberOfElements; i += 1) {
     const number = firstNum + difference * i;
     progression.push(number);
   }
-  progression[hiddenElementIndex] = hiddenElement;
+  progression[hiddenElementIndex] = hiddenElementSign;
   const gameQuestion = progression.join(' ');
   const rightAnswer = String(firstNum + difference * hiddenElementIndex);
   return [gameQuestion, rightAnswer];
