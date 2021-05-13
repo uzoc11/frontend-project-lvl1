@@ -8,7 +8,7 @@ Five games exectued in the terminal
 - brain-calc: you should enter result of expession
 - brain-even: you should answer 'yes' is number is even and 'no' if does not
 - brain-gcd: you should find the greatest common divisor of two numbers
-- brain-progression: you should enter messing nubmer of the progression
+- brain-progression: you should enter missing nubmer of the progression
 - brain-prime: you should answer 'yes' is number is prime and 'no' if does not
 
 # How to install
